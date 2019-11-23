@@ -15,6 +15,10 @@ namespace Animals
 
         //internal - accessed by any code in the same assembly, but not from another assembly.
         internal int NumberOfEyes { get; set; }
+
+        // protected internal - The type or member can be accessed by any code in the 
+        //    assembly in which it is declared, or from within a derived class in another assembly.
+        protected internal int NumberOfEars { get; set; }
     }
 
     public class Dog : Animal
@@ -25,6 +29,7 @@ namespace Animals
             // Age - not accessible
             Sound = "Bark";
             NumberOfEyes = 2;
+            NumberOfEars = 2;
         }
     }
 
