@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{89DB9D13-1330-433B-839F-732AF6903A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People", "People\People.csproj", "{3BA81ADC-4B17-475C-972F-F47EEE4CA4C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89DB9D13-1330-433B-839F-732AF6903A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DB9D13-1330-433B-839F-732AF6903A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DB9D13-1330-433B-839F-732AF6903A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DB9D13-1330-433B-839F-732AF6903A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA81ADC-4B17-475C-972F-F47EEE4CA4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA81ADC-4B17-475C-972F-F47EEE4CA4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA81ADC-4B17-475C-972F-F47EEE4CA4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA81ADC-4B17-475C-972F-F47EEE4CA4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D82E88E1-EEA5-486B-A978-B9480632BE19}
+	EndGlobalSection
+EndGlobal
